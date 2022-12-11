@@ -1,0 +1,23 @@
+{
+    "name": "dcaswel/time-converter",
+    "description": "A PHP package for converting a unit of time into another unit of time.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "pestphp/pest": "^1.22"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dcaswel\\TimeConverter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Derek",
+            "email": "derek.caswell@gmail.com"
+        }
+    ]
+}
